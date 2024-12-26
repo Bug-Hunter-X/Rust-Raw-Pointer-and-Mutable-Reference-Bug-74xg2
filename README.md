@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Rust related to raw pointers and mutable references. The `bug.rs` file contains code that exhibits the issue, while `bugSolution.rs` provides a corrected version that avoids undefined behavior.  The bug arises from modifying data through a raw pointer after the original vector's ownership has changed.
